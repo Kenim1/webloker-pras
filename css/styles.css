@@ -1,0 +1,50 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Banner Section */
+.banner {
+    background-image: url('https://cdn.dribbble.com/users/615991/screenshots/1896582/media/063b38a4099e46acc37655bf05d50e2e.jpg?resize=800x600&vertical=center');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 60vh; /* Menyesuaikan tinggi banner */
+}
+
+
+
+
+.banner h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+/* Featured Jobs */
+.featured-jobs h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.job-card {
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.job-card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+}
